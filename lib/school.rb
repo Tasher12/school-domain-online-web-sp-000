@@ -24,7 +24,7 @@ end
  
 def sort(roster) 
   roster.sort do |key, value|
-    value  
+    end   
   end 
 end
 
