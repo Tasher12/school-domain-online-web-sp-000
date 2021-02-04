@@ -22,5 +22,9 @@ class School
   end
 end 
  
-
+def sort 
+  roster.each do |key, value|
+    puts value.sort 
+  end 
+end
 
