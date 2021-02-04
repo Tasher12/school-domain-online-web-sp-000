@@ -22,8 +22,8 @@ class School
   end
 end 
  
-def sort(sort)
-  
- roster.sort_by {|key, value| value} 
+def sort(roster)
+  @roster = roster 
+  roster.sort_by {|key, value| value} 
 end
 
