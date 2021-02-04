@@ -22,7 +22,7 @@ class School
   end
 
   def sort
-    roster.sort_by {|k, v| v a <=> b} 
+    roster = roster.sort_by {|k,v| v} 
   end 
   
 end 
