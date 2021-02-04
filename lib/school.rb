@@ -17,8 +17,8 @@ class School
     @grade = grade
     if grade == roster[grade] 
       return roster.values  
-  end
-end 
+    end
+  end 
  
 
 
