@@ -24,7 +24,7 @@ end
  
 def sort(roster) 
   roster.each do |key, value|
-    print value.sort 
+    puts "#{value}.sort"
   end 
 end
 
