@@ -22,7 +22,8 @@ class School
   end
 end 
  
-def sort(school)
-  self.school.value.sort 
 end
 
+def sort 
+  School.values.sort 
+end 
