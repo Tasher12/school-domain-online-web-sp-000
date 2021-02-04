@@ -21,6 +21,10 @@ class School
     end 
   end
 end 
+  
+def sort(roster)
+  roster.sort_by {|k, v| v.to_h} 
+end 
 
-def sort 
+end 
 
