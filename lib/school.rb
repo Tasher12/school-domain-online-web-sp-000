@@ -22,7 +22,6 @@ class School
   end
 end 
  
-end
 
 def sort 
   School.values.sort 
