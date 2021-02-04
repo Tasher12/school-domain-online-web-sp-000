@@ -18,6 +18,7 @@ class School
     roster.each do |key, value|
       if key == grade
         return value 
+      end 
     end 
   end
 end 
