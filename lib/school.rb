@@ -15,7 +15,9 @@ class School
    
   def grade(grade)
     @grade = grade
-    grade.values  
+    roster.each do |key, value|
+      return value 
+    end 
   end
 end 
  
