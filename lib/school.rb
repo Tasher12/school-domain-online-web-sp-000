@@ -17,7 +17,9 @@ class School
     @roster[grade]
   end 
 
-  
+  def sort 
+    @roster[grade] = name.sort.to_h 
+  end 
   
 end 
 
