@@ -15,7 +15,7 @@ class School
    
   def grade(grade)
     @grade = grade
-    roster[grade] 
+    if grade == roster[grade] 
       return roster.values  
   end
 end 
