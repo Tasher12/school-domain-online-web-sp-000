@@ -15,7 +15,7 @@ class School
    
   def grade(grade)
     @grade = grade
-    grades.values  
+    return grades.values  
   end
 end 
  
