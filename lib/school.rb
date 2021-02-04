@@ -22,7 +22,7 @@ class School
   end
 end 
  
-def sort 
+def sort(roster) 
   roster.each do |key, value|
     puts value.sort 
   end 
