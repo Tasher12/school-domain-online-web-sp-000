@@ -23,6 +23,6 @@ class School
 end 
  
 def sort(school)
-  school.sort 
+  school.value.sort 
 end
 
