@@ -23,7 +23,8 @@ class School
 end 
  
 def sort(roster)
-  @roster = roster 
-  roster.sort_by {|key, value| value} 
+  roster.each do |key, value|
+    value.sort 
+  end 
 end
 
